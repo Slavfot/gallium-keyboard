@@ -88,7 +88,7 @@ Here you can find the default configuration for the receiver assembly.
 ## Transmitters Assembly
 
 <p align="center">
-<img src="../img/gallium-w-pcb1.jpg" alt="Wireless gallium PCBs" width="600"/>
+<img src="/img/gallium-w-pcb1.jpg" alt="Wireless gallium PCBs" width="600"/>
 </p>
 
 Assembly steps:
@@ -120,45 +120,45 @@ Solder the rest of the pads like normal.
 ##### Programming headers detail:
 
 <p align="center">
-<img src="../img/pcb-w-assembly2.jpg" alt="Programming headers detail" width="600"/>
+<img src="/img/pcb-w-assembly2.jpg" alt="Programming headers detail" width="600"/>
 </p>
 
 ##### MCUs detail:
 
 <p align="center">
-<img src="../img/pcb-w-assembly3.jpg" alt="MCUs detail" width="600"/>
+<img src="/img/pcb-w-assembly3.jpg" alt="MCUs detail" width="600"/>
 </p>
 
 ##### Slider switch detail:
 
 <p align="center">
-<img src="../img/pcb-w-assembly4.jpg" alt="Slider switch detail" width="600"/>
+<img src="/img/pcb-w-assembly4.jpg" alt="Slider switch detail" width="600"/>
 </p>
 
 ##### Diodes installation detail:
 
 <p align="center">
-<img src="../img/pcb-w-assembly5.jpg" alt="Diode installation detail" width="600"/>
+<img src="/img/pcb-w-assembly5.jpg" alt="Diode installation detail" width="600"/>
 </p>
 
 ##### Battery holder installation detail:
 
 <p align="center">
-<img src="../img/Battery-insulation.jpg"    alt="Battery installation detail. Insulation" width="300"/>
-<img src="../img/battery-installation1.jpg" alt="Battery holder installation detail. Ground pad." width="300"/>
-<img src="../img/battery-installation2.jpg" alt="Battery holder installation detail. Assembled." width="300"/>
+<img src="/img/Battery-insulation.jpg"    alt="Battery installation detail. Insulation" width="300"/>
+<img src="/img/battery-installation1.jpg" alt="Battery holder installation detail. Ground pad." width="300"/>
+<img src="/img/battery-installation2.jpg" alt="Battery holder installation detail. Assembled." width="300"/>
 </p>
 
 ##### Left and right hand completed assembly:
 
 <p align="center">
-<img src="../img/pcb-w-assembly6.jpg" alt="Left and right hand completed assembly" width="600"/>
+<img src="/img/pcb-w-assembly6.jpg" alt="Left and right hand completed assembly" width="600"/>
 </p>
 
 ##### Assembled PCB:
 
 <p align="center">
-<img src="../img/pcb-w-assembly1.jpg" alt="Wireless Redox assembled PCB" width="600"/>
+<img src="/img/pcb-w-assembly1.jpg" alt="Wireless Redox assembled PCB" width="600"/>
 </p>
 
 ## Receiver Assembly
@@ -177,19 +177,19 @@ The receiver assembly is pretty straightforward, you can install the components 
 ##### Assembled PCB, front:
 
 <p align="center">
-<img src="../img/gallium-receiver-assembly-1.jpg" alt="Assembled receiver PCB, front." width="600"/>
+<img src="/img/gallium-receiver-assembly-1.jpg" alt="Assembled receiver PCB, front." width="600"/>
 </p>
 
 ##### Assembled PCB, back:
 
 <p align="center">
-<img src="../img/gallium-w-receiver-assembly-2.jpg" alt="Assembled receiver PCB, back." width="600"/>
+<img src="/img/gallium-w-receiver-assembly-2.jpg" alt="Assembled receiver PCB, back." width="600"/>
 </p>
 
 ##### LEDs installation detail:
 
 <p align="center">
-<img src="../img/gallium-receiver-assembly-3.jpg" alt="Assembled receiver PCB, LEDs installation detail." width="600"/>
+<img src="/img/gallium-receiver-assembly-3.jpg" alt="Assembled receiver PCB, LEDs installation detail." width="600"/>
 </p>
 
 > :information_source: Please note that here I installed 220 Ohm resistors because I used only blue and white LEDs as I only had those laying around. You should use the resistor values suggested [here](#resistor-values) or follow the [default configuration](#default-configuration).
@@ -203,7 +203,7 @@ Firmware sources available here: [https://github.com/slavfot/gallium-firmware](h
 You'll need to upload the firmware to the corresponding MCUs as per the following diagram:
 
 <p align="center">
-<img src="../img/gallium-firmware-1.png" alt="Gallium firmware diagram." width="600"/>
+<img src="/img/gallium-firmware-1.png" alt="Gallium firmware diagram." width="600"/>
 </p>
 
 Note that you'll need to upload the firmware for the YJ-14015 only once. Everything related to the keymap is handled by the Arduino Pro Micro and QMK Firmware, that's what you will need to modify to update the keymap.
@@ -228,7 +228,7 @@ In the [Gallium Keyboard firmware repository](https://github.com/slavfot/gallium
 You'll need only to flash the pre-built `.hex` files to the corresponding MCUs, for this you'll need an STLinkV2 debugger.
 
 <p align="center">
-<img src="../img/st-link-v2-programmer.jpg" alt="ST-Link v2 programmer" width="300"/>
+<img src="/img/st-link-v2-programmer.jpg" alt="ST-Link v2 programmer" width="300"/>
 </p>
 
 # Flashing firmware with Windows
@@ -262,7 +262,7 @@ Hook up the ST-Link debugger to the receiver/keyboard board you assembled withou
 |       SWDIO      |      SWDIO     |
 
 <p align="center">
-<img src="../img/gallium-firmware-5.jpg" alt="ST-Link debugger wiring." width="600"/>
+<img src="/img/gallium-firmware-5.jpg" alt="ST-Link debugger wiring." width="600"/>
 </p>
 
 Then plug in the ST-Link debugger into your PC.
@@ -403,7 +403,7 @@ Hook up the ST-Link debugger to the receiver/keyboard board you assembled withou
 |       SWDIO      |      SWDIO     |
 
 <p align="center">
-<img src="../img/gallium-firmware-5.jpg" alt="ST-Link debugger wiring." width="600"/>
+<img src="/img/gallium-firmware-5.jpg" alt="ST-Link debugger wiring." width="600"/>
 </p>
 
 Then plug in the ST-Link debugger into your PC.
@@ -445,7 +445,7 @@ echo nrf51 mass_erase | telnet localhost 4444
 You should be seeing some movement in the OpenOCD terminal window, and you desktop should be looking somewhat like this:
 
 <p align="center">
-<img src="../img/gallium-firmware-2.png" alt="Receiver firmware flashing." width="900"/>
+<img src="/img/gallium-firmware-2.png" alt="Receiver firmware flashing." width="900"/>
 </p>
 
 Now we can upload the receiver firmware onto the MCU.
@@ -470,7 +470,7 @@ echo reset | telnet localhost 4444
 You should be looking at something like this:
 
 <p align="center">
-<img src="../img/gallium-firmware-4.png" alt="Receiver firmware flashing." width="900"/>
+<img src="/img/gallium-firmware-4.png" alt="Receiver firmware flashing." width="900"/>
 </p>
 
 
