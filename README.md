@@ -289,7 +289,9 @@ Tips: Press the tab button to automaticaly complete the directorys name while ty
 Download Gallium-keyboard master zip and unzip anywhere but for ease of use put it in C:\
 https://github.com/Slavfot/gallium-keyboard/archive/master.zip
 
-##### 5. Launch an openocd session with this command:
+##### 5. Launch CMD
+Launch an openOCD server session with this command:
+
 ```sh
 openocd -s C:\OpenOCD\scripts\ -f interface/stlink-v2.cfg -f target/nrf51.cfg
 ```
@@ -338,7 +340,7 @@ or
 flash write_image /gallium-keyboard/precompiled/precompiled-basic-right.hex
 ```
 
-This is how it should look when you connect with telnet:
+This is how it should look when you connect to telnet:
 
 <p align="center">
 <img src="img/flash-windows-1.JPG" alt="flashing-on-windows-1" width="600"/>
@@ -350,7 +352,7 @@ The whole process should look like this:
 <img src="img/flash-windows-2.JPG" alt="flashing-on-windows-2" width="600"/>
 </p>
 
-#### 9. Repeat untill you have flashed all three wireless modules.
+##### 9. Repeat untill you have flashed all three wireless modules.
 
 ##### 10. End openOCD sessionen with ctrl+C in the first CMD window.
 Congratulations you have now flashed your Gallium Keyboard!
