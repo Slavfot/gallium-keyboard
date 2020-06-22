@@ -341,13 +341,13 @@ flash write_image /gallium-keyboard/precompiled/precompiled-basic-right.hex
 This is how it should look when you connect with telnet:
 
 <p align="center">
-<img src="img/flash-windows-1.jpg" alt="flashing-on-windows-1" width="600"/>
+<img src="img/flash-windows-1.JPG" alt="flashing-on-windows-1" width="600"/>
 </p>
 
 The whole process should look like this:
 
 <p align="center">
-<img src="img/flash-windows-2.jpg" alt="flashing-on-windows-2" width="600"/>
+<img src="img/flash-windows-2.JPG" alt="flashing-on-windows-2" width="600"/>
 </p>
 
 #### 9. Repeat untill you have flashed all three wireless modules.
