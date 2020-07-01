@@ -96,7 +96,7 @@ Assembly steps:
 - Solder components to PCBs.
   1. Solder slider switch. 
   2. Solder the YJ-14015 on the same side as the slider switch.
-  3. Solder 1N4148 diodes.
+  3. Solder 1N4148 diodes either SMT or THT (Surface-mount Technology or Through-hole Technology).
   4. Apply insulating tape over the pads surrounding the battery ground pad before soldering the battery holder [picture below](#battery-holder-installation-detail).
   5. Some solder is needed on the ground pad to contact properly with the battery. See [picture below](#battery-holder-installation-detail).
   6. Solder the battery holders.
@@ -143,11 +143,11 @@ Solder the rest of the pads like normal.
 <p align="center">
 <img src="/img/pcb-w-assembly5.jpg" alt="Diode installation detail" width="600"/>
 </p>
+SMT on the left and THT on the right.
 
 ##### Battery holder installation detail:
 
 <p align="center">
-<img src="/img/Battery-insulation.jpg"    alt="Battery installation detail. Insulation" width="300"/>
 <img src="/img/battery-installation1.jpg" alt="Battery holder installation detail. Ground pad." width="300"/>
 <img src="/img/battery-installation2.jpg" alt="Battery holder installation detail. Assembled." width="300"/>
 </p>
