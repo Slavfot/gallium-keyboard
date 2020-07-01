@@ -114,8 +114,11 @@ Assembly steps:
 ##### How i solder surface mount components:
 Wet one pad with solder.
 Position the component and hold the component in place with a tweezer.
-Heat up the wet pad and let cool, this should fix the module.
+Heat up the wet pad and let cool, this should fix the component.
+Re-heat and adjust the position if the component isn't placed perfect.
+Be sure not to heat to long wich may damage the PCB or the component.
 Solder the rest of the pads like normal.
+
 
 ##### Programming headers detail:
 
