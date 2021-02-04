@@ -11,7 +11,7 @@ At home it is almost unusable because of interference. Missing key presses and h
 I'm trying to solve this and will post an update when i find a stable solution for the wireless communication.
 
 # Future
-At the moment I'm working on a micro pro version wich will make it possible to use the nice!nano bluetooth module wit it instead.
+At the moment I'm working on a micro pro version wich will make it possible to use the nice!nano bluetooth module with it instead.
 My goal is to stock these and sell as kits togehter with 3D printed case. And even aluminium cases in GB.
 
 ## Summary
