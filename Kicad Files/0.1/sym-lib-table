@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name keyboard_parts)(type Legacy)(uri "${KICAD_USER_LIBRARY}/Custom Symbol Library/Keyboard_parts/keyboard_parts.lib")(options "")(descr ""))
+  (lib (name mkl27z256vfm4)(type Legacy)(uri "${KICAD_USER_LIBRARY}/Custom Symbol Library/Keyboard_parts/mkl27z256vfm4.lib")(options "")(descr ""))
+  (lib (name redox_rev1-cache)(type Legacy)(uri "${KICAD_USER_LIBRARY}/Custom Symbol Library/Keyboard_parts/redox_rev1-cache.lib")(options "")(descr ""))
+  (lib (name redox-receiver-cache)(type Legacy)(uri "${KICAD_USER_LIBRARY}/Custom Symbol Library/Keyboard_parts/redox-receiver-cache.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri "${KICAD_USER_LIBRARY}/Custom Symbol Library/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name Nukleon-Keyboard-rescue)(type Legacy)(uri "${KIPRJMOD}/Nukleon Keyboard-rescue.lib")(options "")(descr ""))
+)

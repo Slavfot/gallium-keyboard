@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name keebs)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/keebs.pretty")(options "")(descr ""))
+  (lib (name keyboard_parts)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/keyboard_parts.pretty")(options "")(descr ""))
+  (lib (name Mounting_Holes)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/Mounting_Holes.pretty")(options "")(descr ""))
+  (lib (name mxalps+hotswap)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/mxalps+hotswap.pretty")(options "")(descr ""))
+  (lib (name promicro)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/promicro.pretty")(options "")(descr ""))
+  (lib (name redox_w_receiver_footprints)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/redox_w_receiver_footprints.pretty")(options "")(descr ""))
+  (lib (name redox_w_transmitters_footprints)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/redox_w_transmitters_footprints.pretty")(options "")(descr ""))
+  (lib (name Antons_footprints)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/Antons_footprints.pretty")(options "")(descr ""))
+  (lib (name Keyswitches)(type KiCad)(uri "${KICAD_USER_LIBRARY}/Custom Footprint/keyswitches.pretty")(options "")(descr ""))
+)
