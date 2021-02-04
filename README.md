@@ -166,16 +166,17 @@ SMT on the left and THT on the right.
 
 ## Receiver Assembly
 
-The receiver assembly is pretty straightforward, you can install the components in any order you like with the exception of the YJ-14015: it should be installed **after** the right angled header (PROGR_HEADER1). Suggested assembly order:
+The receiver assembly is pretty straightforward i suggest soldering it in this order:
 
 1. Solder D1, D2, D3 and D4 LEDs. See [image](#leds-installation-detail) for orientation.
 2. Solder R4, R6, R7 and R8 resistors.
 3. Solder R1, R2 and R3 resistors.
 4. Solder the AMS1117.
-5. Solder the Arduino Pro Micro headers.
-6. Solder the programming headers. I suggest you to cut the excess of the header **before** soldering the headers. You should stay as flush to the PCB surface as possible since the controller will be soldered above the headers. Use some masking tape to help you keep the header in place while soldering.
+5. Solder the programming headers. I suggest you to cut the excess of the header **before** soldering the headers. You should stay as flush to the PCB surface as possible since the controller will be soldered above the headers. Use some masking tape to help you keep the header in place while soldering.
+6. Solder the Arduino Pro Micro headers.
 7. Solder the YJ-14015. I suggest you to glue it in place or use some masking tape to help you during soldering.
-8. Upload the firmware and you're done.
+8. Solder the reset button.
+9. Upload the firmware and you're done.
 
 ##### Assembled PCB, front:
 
