@@ -2,7 +2,7 @@
 
 The Gallium Keyboard is a Wireless Ergonomical Split Keyboard.
 
-#DISCLAIMER
+# DISCLAIMER
 
 I have a problem with the keyboard that i have opened an issue at the redox Github. https://github.com/mattdibi/redox-keyboard/issues/55
 The problem is interference making it hard to use in some environments.
@@ -10,7 +10,7 @@ I use it daily at work and it works really good except sometimes i have to replu
 At home it is almost unusable because of interference. Missing key presses and high latency.
 I'm trying to solve this and will post an update when i find a stable solution for the wireless communication.
 
-#Future
+# Future
 At the moment I'm working on a micro pro version wich will make it possible to use the nice!nano bluetooth module wit it instead.
 My goal is to stock these and sell as kits togehter with 3D printed case. And even aluminium cases in GB.
 
